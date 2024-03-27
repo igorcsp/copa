@@ -47,12 +47,6 @@ public class CadastroTimes extends javax.swing.JFrame {
 
         jLabel1.setText("CADASTRO DE TIMES");
 
-        jTextField1.setText("jTextField1");
-
-        jTextField2.setText("jTextField2");
-
-        jTextField3.setText("jTextField3");
-
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
             public int getSize() { return strings.length; }
@@ -166,7 +160,9 @@ public class CadastroTimes extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+        this.dispose();
+        Menu menu = new Menu();
+        menu.setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
